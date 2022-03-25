@@ -1,0 +1,108 @@
+@font-face {
+    font-family: charter;
+    src: url(assets/fonts/charter/charter/ttf/Charter\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Helvetica-Neue-Font;
+    src: url(assets/fonts/Helvetica-Neue-Font/Helvetica-Neue-Font/Helvetica\ Neue\ Medium\ Extended/.ttf);
+}
+
+section{
+    width: 70%;
+    margin: 0px auto;
+    border-left: solid 2px #e0d4d450;
+    border-right: 2px solid #e0d4d450;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.middle{
+    text-align: center;
+    
+}
+
+h1{
+    width: 100%;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    
+}
+
+h2{
+    font-size: 22px;
+    margin-top: 0.79em;
+    letter-spacing: 0;
+    color: rgba(117, 117, 117, 1);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button{
+    background-color: rgb(25, 78, 25);
+    border-radius: 20%;
+    color: antiquewhite;
+}
+
+
+.Sign-Up{
+    padding: 20px 15px;
+    background-color: #e0d4d450;
+    border-radius: 5px;
+    margin: 10px 100px 20px 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.flex-Jessica{
+    display: flex;
+     align-content: space-between;
+     text-align: right;
+  
+}
+
+.profile{
+    width: 70px;
+    border-radius: 60%;
+  
+}
+
+
+section div span:nth-child(1){
+    font-weight: bold;
+}
+
+.body {
+    font-family: charter;
+    letter-spacing: -0.003em;
+    margin-top: 1.56em;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: -0.46em;
+    word-break: break-word;
+    color: rgba(41, 41, 41, 1);
+    font-weight: 400;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+.body p{
+    
+    text-rendering: optimizeLegibility;
+
+}
+
+.body p:nth-child(14){
+    background-color: rgba(26, 137, 23, 0.1);
+    transition: 0.4s;
+    
+}
+
+.body p:nth-child(14):hover{
+    background-color: rgba(26, 137, 23, 0.3);
+    
+}
